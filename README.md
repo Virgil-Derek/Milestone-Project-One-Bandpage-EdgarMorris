@@ -53,8 +53,9 @@ Welcome!
   6. [Google Fonts](https://fonts.google.com/)
       - Google fonts-link was used throughout the site.
       - Fonts: 
-      - Added Brightness to title font 
-  7. 
+  
+  7. [W3schools](https://www.w3schools.com/css/css3_transitions.asp)
+      used for transition possibilities , brightness, background-positioning
 
 ## Deployment
 
