@@ -65,4 +65,7 @@ Welcome!
 
 ## Credtis
 
+-Matt Rugde, Code Institute Mentor for general layouts, from where to build upon. 
+-Antonija, Code Institute Mentor for various websites and tools.
 - To change the brightness of fonts in CSS, I found this blog from [Chris Strahl]("https://weblog.west-wind.com/posts/2020/Jul/28/Using-the-brightness-CSS-Filter-to-generically-highlight-Content")
+- For stylistic representatio I was aiming for a combination between [Harry Styles](https://hstyles.co.uk/) and [Half Moon Run](https://www.halfmoonrun.com/). 
