@@ -33,7 +33,8 @@ Welcome!
 
 * Requirements
     1. Band/management should be easy enough to navigate through to add tour schedules, photographs and the latest news.
-    2. 
+
+
 
 ## Technologies Used
 ### Languages
@@ -50,9 +51,21 @@ Welcome!
   5. [Github](https://github.com/)
 
   6. [Google Fonts](https://fonts.google.com/)
-      - Google fonts was 
-  7. 
+      - Google fonts-link was used throughout the site.
+      - Fonts: 
+  
+  7. [W3schools](https://www.w3schools.com/css/css3_transitions.asp)
+      used for transition possibilities , brightness, background-positioning
 
 ## Deployment
 
+  a. Bugs: 
+      1. When trying to upload my cover Image, remained Black, no image showed. 
+              Solution: checked filepath. it had: url:(..assets/images/image.jpg) it should have been: url: ("../images/image.jpg")
+
 ## Credtis
+
+-Matt Rugde, Code Institute Mentor for general layouts, from where to build upon. 
+-Antonija, Code Institute Mentor for various websites and tools.
+- To change the brightness of fonts in CSS, I found this blog from [Chris Strahl]("https://weblog.west-wind.com/posts/2020/Jul/28/Using-the-brightness-CSS-Filter-to-generically-highlight-Content")
+- For stylistic representatio I was aiming for a combination between [Harry Styles](https://hstyles.co.uk/) and [Half Moon Run](https://www.halfmoonrun.com/). 
