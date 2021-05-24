@@ -68,4 +68,4 @@ Welcome!
 -Matt Rugde, Code Institute Mentor for general layouts, from where to build upon. 
 -Antonija, Code Institute Mentor for various websites and tools.
 - To change the brightness of fonts in CSS, I found this blog from [Chris Strahl]("https://weblog.west-wind.com/posts/2020/Jul/28/Using-the-brightness-CSS-Filter-to-generically-highlight-Content")
-- For stylistic representatio I was aiming for a combination between [Harry Styles](https://hstyles.co.uk/) and [Half Moon Run](https://www.halfmoonrun.com/). 
+- For stylistic representation, There have been several influential websites I looked for a general stylistic directions. [Harry Styles](https://hstyles.co.uk/) and [Half Moon Run](https://www.halfmoonrun.com/), also the websites created for other artists, beside music like artist [Manon Raman](https://www.manonraman.com/?fbclid=IwAR09_Qdmei5PXMrwK4QvE4_NXZ4lBFkdGu2ovQj0op58Iui1IALl64ggAeQ). 
