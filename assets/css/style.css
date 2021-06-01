@@ -4,7 +4,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap:100,200,300,400,500,600,700');
 
 
+* { 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
 /*--------------------------------------------------------------------header*/
+
+body {
+    font-family: 'Crimson Text', 'Courier New', Courier, monospace;
+    color: #777;
+}
+
+.brand {
+    color: #777;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    float: left;
+ }
+
+ .music {
+     color: #007;
+ }
+ 
+ .tour {
+     color: #ffa;
+ }
+
+ .store {
+     color: #e0e;
+ }
+
+
 header{
     background-color: black;
     margin: 0;
@@ -12,23 +44,8 @@ header{
 }
 
 
-.navbar{
-    background-color:  #634e0b;
-    font-family: "New Tegomin", "Crimson Text", "Krona One", sans-serif;
-    font-weight: 50px;
-    font-size: 25px; 
-    text-align: right;
-    margin: 0%;
-    
-    
-}
-.nav-head{
-    background-color: #634e0b;
 
-}
-
-
-.name{
+.name {
     font-family: "New Tegomin", "Crimson Text", "Krona One", sans-serif ;
     font-weight: 100px;
     font-size: 100px;
@@ -50,6 +67,7 @@ header{
 }
 
 /*---------------------*/
+
 .logo{
     background: url("../images/cover-image.jpg") ;
     background-position: 0% 40%;
@@ -79,5 +97,3 @@ header{
 
 
 /*---------------------------------------------------------------------fonts*/
-
-
