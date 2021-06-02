@@ -22,7 +22,10 @@ Welcome!
      c. I want to visit the store.
 * Design
   * Color scheme
-  * Typography
+  * Typography:
+    1. Crimson Text: AS general font for information and navigations 
+    2. New Tegomin for Title. to give it a stand out with a hand written feel.
+    
   * Imagery
 
 * Wireframes
