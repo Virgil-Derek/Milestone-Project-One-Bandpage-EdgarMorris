@@ -65,6 +65,7 @@ Welcome!
   a. Bugs: 
       1. When trying to upload my cover Image, remained Black, no image showed. 
               Solution: checked filepath. it had: url:(..assets/images/image.jpg) it should have been: url: ("../images/image.jpg")
+      2. When using hamburger drowpdown menu, Tere was no response. after looking through a number of online solutions. It was the missing script from bootstrap. (Ps: In 5.0 version documentation no it said no scripts where necessary to include + there seems to be no documentation about a hamburger dropdown on bootstrap, neither version 4.1 or 5.0?)
 
 ## Credtis
 
