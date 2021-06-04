@@ -16,6 +16,8 @@ body {
     font-family: 'Crimson Text', 'Courier New', Courier, monospace;
     color: #777;
     background-color: #777;
+    height: 100%;
+    width: 100%;
 
 }
 
@@ -24,8 +26,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 4px;
     float: left;
-    margin-left: 10px;
-    
+    margin-left: 50px;
     text-align: center;
     
         
@@ -43,6 +44,8 @@ body {
      text-decoration: none;
      filter: brightness(200%);
      float: right;
+     margin-right: 20px;
+     margin-left: 20px;
 
  }
 
@@ -54,6 +57,7 @@ body {
  .Music-nav {
      color: inherit;
      padding-left: 10px;
+
      
  
  }
@@ -89,6 +93,9 @@ body {
     zoom: 110%;
  }
 
+ .navbar-toggler-icon {
+     margin-right: 20px;
+ }
 
  /*---------------------------------------------------header*/
 
@@ -99,7 +106,8 @@ header{
     background-size: cover;
 
     margin: 0;
-    width: auto;
+    width: 100%;
+    overflow: hidden;
     
 }
 
@@ -143,6 +151,8 @@ header{
     text-align: center;
     float: right;
     margin-top: 50px;
+    margin-left: 0%;
+    
 
     
     
