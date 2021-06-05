@@ -4,13 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap:100,200,300,400,500,600,700');
 
 
-* { 
+* {
     margin: 0;
     padding: 0;
     border: 0;
-    
+
 }
-/*--------------------------------------------------------------------header nav*/
 
 body {
     font-family: 'Crimson Text', 'Courier New', Courier, monospace;
@@ -20,101 +19,118 @@ body {
     width: 100%;
 
 }
+/*--------------------------------------------------------------------navbar*/
 
 .navbar-brand {
-    
+
     text-transform: uppercase;
     letter-spacing: 4px;
     float: left;
     margin-left: 50px;
     text-align: center;
-    
-        
- }
+    transition: .5s;
+    font-weight: bold;
 
- .navbar-brand:hover {
+
+}
+
+.navbar-brand:hover {
     text-decoration: underline;
+    zoom: 110%;
     filter: brightness(500%);
-     
+    transition: 2s;
+}
 
- }
+.menu {
+    letter-spacing: 4px;
+    text-decoration: none;
+    filter: brightness(200%);
+    margin-right: 20px;
+    margin-left: 20px;
 
- .menu {
-     letter-spacing: 4px;
-     text-decoration: none;
-     filter: brightness(200%);
-     float: right;
-     margin-right: 20px;
-     margin-left: 20px;
+}
 
- }
+.menu a {
+    text-decoration: none;
+    font-weight: 150%;
+    transition: .5s
+}
 
- .menu a {
-     text-decoration: none;
-     font-weight: 150%;
- }
-
- .Music-nav {
-     color: inherit;
-     padding-left: 10px;
-
-     
- 
- }
-
- .Music-nav:hover {
-     filter: brightness(50%);
-     zoom: 110%;
-     
- }
- 
- .Tour-nav {
-     color: inherit;
-     padding-left: 10px;
-     
- }
- 
- .Tour-nav:hover {
-     filter: brightness(50%);
-     zoom: 110%;
-
- }
+.Music-nav {
+    color: inherit;
+    padding-left: 10px;
 
 
- .Store-nav {
-     color: inherit;
-     padding-left: 10px;
-     
+}
 
- }
-
- .Store-nav:hover {
+.Music-nav:hover {
     filter: brightness(50%);
     zoom: 110%;
- }
 
- .navbar-toggler-icon {
-     margin-right: 20px;
- }
+}
 
- /*---------------------------------------------------header*/
+.Tour-nav {
+    color: inherit;
+    padding-left: 10px;
 
-header{
-    background: url("../images/Pictures.jpg") ;
+}
+
+.Tour-nav:hover {
+    filter: brightness(50%);
+    zoom: 110%;
+
+}
+
+.Store-nav {
+    color: inherit;
+    padding-left: 10px;
+
+
+}
+
+.Store-nav:hover {
+    filter: brightness(50%);
+    zoom: 110%;
+}
+
+.Bio-nav {
+    color: inherit;
+    padding-left: 10px;
+
+}
+
+.Bio-nav:hover {
+    filter: brightness(50%);
+    zoom: 110%;
+}
+
+.navbar-toggler{
+    margin-right: 10px;
+    border: 0;
+}
+/*--------------------------------------------------navbar*/
+
+
+/*---------------------------------------------------header*/
+
+header {
+    background: url("../images/Pictures.jpg") fixed;
     background-position: 0% 30%;
     background-repeat: no-repeat;
     background-size: cover;
 
     margin: 0;
-    width: 100%;
+    padding: 0;
+
+    height: 100%;
+    width: 100vw;
     overflow: hidden;
-    
+
 }
 
 
-
 .name {
-    font-family: "New Tegomin", "Crimson Text", "Krona One", sans-serif ;
+    font-family: "New Tegomin", "Crimson Text", "Krona One", sans-serif;
     font-weight: 100px;
     font-size: 100px;
     text-align: center;
@@ -123,67 +139,140 @@ header{
     margin: 0;
 }
 
-.subline{
+.namelink a {
+    text-decoration: none;
+}
+
+.subline {
     font-family: "Shadows Into Light", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
-    color: #630b0b;
+    color: #888;
     filter: brightness(200%);
     font-size: 45px;
-    margin: 20;
+    margin: 20px;
+    margin-bottom: 10%;
+
 
 
 }
 
-/*---------------------*/
+.logo {
 
-.logo{
-    
     background: url("../images/Gonzo\ 13-05-2017.jpg");
-    background-position: 0% 30%;
+    background-position: 0% 10%;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
     transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
     -webkit-transition: all 1s ease-in-out;
-    border: 5px solid #88222277;
-    border-radius: 50%;
+    border: 5px solid #882222bb;
+    border-radius: 100px 100px;
     text-align: center;
     float: right;
     margin-top: 50px;
     margin-left: 0%;
-    
 
-    
-    
 }
 
 .logo:hover {
-    width: 70%;
+    width: 60%;
     height: 100%;
     border-radius: 100px 100px;
-
+    background-position: 00% 85%;
 
 }
 
+/*----------------------------------------------------Header*/
+
+/*----------------------------------------------------container*/
 
 .container {
-    background: url("../images/Eris.jpg");
+    background-color: crimson;
     background-size: cover;
+
+
+
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    padding-left: 0;
+    padding-right: 0;
+    border: 0;
+    margin: 0;
+    
+
+    width: 100vw;
+
 }
 
-.callout {
-    background: url("../images/Rubble.jpg")
+
+.callout-container {
+
+    background: url("../images/Rubble.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    border: 0;
+    margin: 0;
+
+    width: 100vw;
+
+
 }
 
-.tour {
-    background: url("../images/RUF.jpg")
+.tour-container {
+    background: url("../images/RUF.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100vw;
+
 }
+
+.store-container {
+    background: url("../images/Profiel\ pic\ Slack.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100vw;
+
+}
+
+.bio-container {}
+
 /*--------------------------------------------------------------------header*/
 
 
+/*-------------------------------------------------------------------buttons*/
+.btn-cta{
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
 
-/*--------------------------------------------------------------------fonts*/
+}
 
+.btn-red{
+    color: white;
+    background-color:#882222ff;
+}
 
-/*---------------------------------------------------------------------fonts*/
+/*--------------------------------------------------------------------buttons*/
+
+/*---------------------------------------------------------------------hr*/
+.block-divider{
+    height: 5px;
+    color: white;
+}

@@ -18,7 +18,7 @@
         <!---nav top--->
 
         <nav class="navbar navbar-light navbar-expand-sm fixed-top" style="background-color: #634e0b;">
-            <a class="navbar-brand" href="index.html">Edgar Morris</a>
+            <a class="navbar-brand" style="color: #777;" href="index.html">Edgar Morris</a>
 
             <button class="navbar-toggler mr-auto" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -35,11 +35,15 @@
                                 <a href="#" class="Music-nav"> <i class="fas fa-compact-disc"></i> Music </a>
                             </li>
                             <li class="active nav-item mr-2">
-                                <a href="#" class="Tour-nav"> <i class="fas fa-guitar"></i> Tour </a>
+                                <a href="/tour" class="Tour-nav"> <i class="fas fa-guitar"></i> Tour </a>
                             </li>
                             <li class="active nav-item mr-2 ">
-                                <a href="#" class="Store-nav"> <i class="fas fa-shopping-bag"></i> Store </a>
+                                <a href="store.html" class="Store-nav" target="_blank"> <i class="fas fa-shopping-bag"></i> Store </a>
                             </li>
+                            <li class="active nav-item mr-2 ">
+                                <a href="/bio" class="Bio-nav" data-bs-target="#bio" aria-controls="bio" aria-expanded="false"><i class="fas fa-book-open"></i> Bio </a>
+                            </li>
+
                         </ul>
                     </div>
                 </div>
@@ -47,41 +51,41 @@
 
 
         </nav>
-
-
-        <hr>
-
+        <hr class="block-divider">
         <div class="row justify-content-center">
-            <div href="#" class="col-md-5 logo">
+            <a href="store.html" class="col-md-5 logo">
 
-            </div>
+            </a>
         </div>
 
-        <div class="row">
-            <a href="index.html" class="col"></a>
-            <h1 class="name bold">Edgar Morris</h1>
+        <div class="row namelink">
+            <a href="index.html" class="col">
+            <h1 class="name bold">Edgar Morris</h1></a>
             <h2 class="subline">Spacetime for Space People</h2>
 
 
         </div>
-        <hr>
+        <hr  class="block-divider">
 
     </header>
 
 
-
+    
     <article class="container">
+
         <!-- Callout -->
-        <section class="callout">
+        <section class="container-fluid callout-container">
             <h1 class="text-uppercase">- <mark>New Album</mark> - Lemons & Limes - <strong>July 7th</strong> </h1>
             <p>Sign up, Listen and Preorder Here!</p>
+            <p><button class="btn btn-outline-secondary btn-cta btn-red" data-toggle="modal" data-target="#signUpModal">Preorder here!</button></p>
 
         </section>
         <!-- ./Callout -->
-        <hr>
+
+      
 
         <!-- Tour -->
-        <section class="tour">
+        <section class="container-fluid tour-container">
             <h1 class="text-uppercase">Tour dates</h1>
             <p>
                 <ol>
@@ -99,7 +103,7 @@
         </section>
 
         <!-- Music -->
-        <section class="music">
+        <section class="container music-container">
             <h1></h1>
             <p>
                 <div class="d-none d-md-block">
@@ -115,10 +119,18 @@
         <hr>
 
         <!-- Bio -->
-        <section class="bio">
+        <section class="container bio-container" id="bio">
             <h1>Bio </h1>
             <p>On the fifth day of the fifth month in the year 2021. Nothing seemed as it seemed.</p>
             <button class="btn btn-sm btn-light">Read More</button>
+        </section>
+
+        <!-- Store -->
+        <section class="container-fluid store-container ">
+            <h1 class="text-uppercase"> <button> order </button> - Lemons & Limes - <strong>July 7th</strong> </h1>
+            <p>Sign up, Listen and Preorder Here!</p>
+            <p><button class="btn btn-lg btn-success" data-toggle="modal" data-target="#signUpModal">Sign Up!</button></p>
+
         </section>
 
     </article>
