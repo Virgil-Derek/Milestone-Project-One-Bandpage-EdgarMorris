@@ -36,6 +36,7 @@ Welcome!
 
 * Requirements
     1. Band/management should be easy enough to navigate through to add tour schedules, photographs and the latest news.
+    2. Visitors shoudl be guided easily towards Tour schedule, and store.
 
 
 

@@ -17,6 +17,7 @@ body {
     background-color: #777;
     height: 100%;
     width: 100%;
+    overflow: hidden
 
 }
 /*--------------------------------------------------------------------navbar*/
@@ -188,6 +189,7 @@ header {
 /*----------------------------------------------------container*/
 
 .container {
+    
     align-items: center;
     justify-content: center;
 
@@ -207,7 +209,6 @@ header {
 
 .callout-container {
 
-    /*background: url("../images/Rubble.jpg") no-repeat center center fixed;*/
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -223,6 +224,8 @@ header {
     position: relative;
     padding-left: 0;
     padding-right: 0;
+    padding-top: 75px;
+    padding-bottom: 75px;
     border: 0;
     margin: 0;
 
@@ -243,6 +246,9 @@ header {
 
     font-family: "Shadows Into Light", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
+    
+    color: rgb(197, 6, 6);
+    
 
 }
 
@@ -254,24 +260,53 @@ header {
     background-size: cover;
     width: 100vw;
 
+
 }
 
-.bio-container {}
+.bio-container {
+    background-color: black;
+
+
+}
+
+/*------------------------------------------------------------content container*/
+
+.content-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
 
 /*--------------------------------------------------------------------header*/
 
+.page-header {
+    margin-bottom: 0;
+    border-top: 0;
+    text-align: center;
+}
+
+.page-header h1,p {
+    margin-top: 0;
+}
+
+/*---------------------------------------------------------------------mark*/
+.mark{
+    margin-top: 10px;
+}
 
 /*-------------------------------------------------------------------buttons*/
 .btn-cta{
+    
     border-radius: 23px;
     width: 160px;
-    margin-right: 45px;
+    
 
 }
 
 .btn-red{
     color: white;
     background-color:#882222ff;
+    background-position: center;
 }
 
 /*--------------------------------------------------------------------buttons*/
