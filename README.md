@@ -3,7 +3,7 @@ Bandpage with User-Centric Frontend Design with HTML & CSS created as Milestone 
 
 Welcome!
 
-This page is all about building an image for a potential, yet up to ths point non existing band. The band should resolve around one main figure to be the poster boy and at the same time keep a veil of mystery about the character behind it. 
+This page is all about building an image for a potential, yet up to ths point non existing band.
 
 
 
