@@ -1,27 +1,35 @@
 # Milestone-Project-One-Bandpage-EdgarMorris
-Bandpage with User-Centric Frontend Design with HTML & CSS as Milestone created as Project-1 for Code Institute Full Stack Development course.
+Bandpage with User-Centric Frontend Design with HTML & CSS created as Milestone Project-1 for Code Institute Full Stack Development course.
 
-Welcome! 
+Welcome!
 
+This page is all about building an image for a potential, yet up to ths point non existing band. The band should resolve around one main figure to be the poster boy and at the same time keep a veil of mystery about the character behind it. 
 
 
 
 ## User Experience (UX)
 * User Stories
    * First time user 
-     a. I want to learn more about the band. WHo are they, and why are they worth a listen.
-     b. I want to navigate towards music and photographs
-     c.
+     a. what is the band all about? Who is in it? does it appeal to me and why should I give this my attention? Why is the band worth a listen and why should I support the band with purchasing something from there store.  
+     b. I want to navigate towards music and photographs about there previous endeavours. 
+     c. I want to know if and where they play in the near future. 
    * Returning user
-     a. I want to look at pictures
+     a. I want to look at pictures/ short films/ clips form recent shows.
      b. I want to listen to music.
      c. I want to visit the store.
    * Frequent user
-     a. As a frequent user I want to learn updates on tour schedules, and new posted content.
+     a. As a frequent user I am determined they want to learn updates on tour schedules, and new posted content.
      b. I want to sign up for the newsletter
      c. I want to visit the store.
+     
+ * Band view
+    * I want a website that has the potential to capture the imagination of the visitors and create a connection with the band. 
+    * The online link to the store should be accessible, but not the only reason for visiting the site. There should be a form of mystery surrounding the band, to make the audience wanting for more information. 
+    * Touring schedules should be eye catching with an easy access to purchasing tickets.
+     
 * Design
-  * Color scheme
+  * Color scheme 
+    
   * Typography:
     1. Crimson Text: AS general font for information and navigations 
     2. New Tegomin for Title. to give it a stand out with a hand written feel.
