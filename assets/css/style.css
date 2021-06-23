@@ -14,10 +14,10 @@
 body {
     font-family: "Crimson Text", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #777;
-    background-color: #777;
+    background-color: #111;
     height: 100%;
     width: 100%;
-    overflow: hidden
+    overflow-x: hidden;
 
 }
 /*--------------------------------------------------------------------navbar*/
@@ -115,17 +115,16 @@ body {
 /*---------------------------------------------------header*/
 
 header {
-    background: url("../images/Pictures.jpg") fixed;
+    background: url("../images/Pictures.jpg") no-repeat center center fixed;
     background-position: 0% 30%;
-    background-repeat: no-repeat;
     background-size: cover;
 
     margin: 0;
     padding: 0;
 
     height: 100%;
-    width: 100vw;
-    overflow: hidden;
+    width: 100%;
+    /*overflow: hidden;*/
 
 }
 
@@ -159,8 +158,8 @@ header {
 
 .logo {
 
-    background: url("../images/Gonzo\ 13-05-2017.jpg");
-    background-position: 0% 10%;
+    background: url("../images/RUF.jpg");
+    background-position: 0% 25%;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
@@ -237,7 +236,7 @@ header {
 }
 
 .tour-container {
-    background: url("../images/RUF.jpg") no-repeat center center fixed;
+    background: url("../images/Gonzo\ 13-05-2017.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -246,8 +245,13 @@ header {
 
     font-family: "Shadows Into Light", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
+    font-size: x-large;
+    letter-spacing: 2px;
+    text-align: center;
+    list-style-position: inside;
     
-    color: rgb(197, 6, 6);
+    color: #b11616;
+    
     
 
 }
@@ -258,13 +262,14 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    width: 100vw;
+    width: 100%;
 
 
 }
 
 .bio-container {
     background-color: black;
+    width: 100%;
 
 
 }
@@ -303,10 +308,17 @@ header {
 
 }
 
-.btn-red{
+.btn-red {
     color: white;
     background-color:#882222ff;
     background-position: center;
+}
+
+.button-ticket {
+         
+        color: #9b7f22;
+        background-color: rgb(90, 27, 2);
+
 }
 
 /*--------------------------------------------------------------------buttons*/
@@ -315,4 +327,20 @@ header {
 .block-divider{
     height: 5px;
     color: white;
+}
+
+/*--------------------------------------------------------------------Form*/
+.form-title {
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+
+}
+.form-brand {
+    font-family: "Shadows Into Light", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #882222bb;
+    font-size: 15px;
+    float: right;
+    /*float: right;
+    text-align: right;*/
 }
