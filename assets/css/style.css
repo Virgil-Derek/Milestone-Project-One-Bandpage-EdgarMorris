@@ -217,7 +217,7 @@ header {
     
 
     display: flex;
-    align-items: center;
+    text-align: center;
     justify-content: center;
 
     position: relative;
@@ -253,6 +253,17 @@ header {
     color: #b11616;
     
     
+
+}
+
+.tour-dates-title {
+    font-weight: bold;
+    
+
+}
+
+.tickets:hover {
+    text-decoration: underline;
 
 }
 
@@ -295,8 +306,13 @@ header {
 }
 
 /*---------------------------------------------------------------------mark*/
+.row h2 {
+    text-align: center;
+}
+
 .mark{
     margin-top: 10px;
+    
 }
 
 /*-------------------------------------------------------------------buttons*/
@@ -314,11 +330,16 @@ header {
     background-position: center;
 }
 
+
+
 .button-ticket {
          
         color: #9b7f22;
         background-color: rgb(90, 27, 2);
 
+}
+.button-ticket:hover {
+    text-decoration:underline;
 }
 
 /*--------------------------------------------------------------------buttons*/
