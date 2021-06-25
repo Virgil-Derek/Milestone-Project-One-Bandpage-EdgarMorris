@@ -269,11 +269,6 @@ header {
 
 }
 
-.tickets:hover {
-    text-decoration: underline;
-
-}
-
 .store-container {
     background: url("../images/Profiel\ pic\ Slack.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -329,6 +324,7 @@ header {
     color: white;
     background-color: #882222ff;
     background-position: center;
+    font-size: larger;
 }
 
 .btn-secondary {
@@ -341,11 +337,13 @@ header {
 
     color: #9b7f22;
     background-color: rgb(90, 27, 2);
+    text-decoration: none;
 
 }
 
 .button-ticket:hover {
     text-decoration: underline;
+    color: #9b7f22;
 }
 
 .button-bio {
