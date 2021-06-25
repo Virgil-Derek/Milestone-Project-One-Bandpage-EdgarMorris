@@ -298,10 +298,14 @@ header {
 
 /*------------------------------------------------------------content container*/
 
-.content-container {
+/*.content-container {
     padding-top: 100px;
     padding-bottom: 100px;
 
+}*/
+
+.card-body {
+    background-color: #634e0b;
 }
 
 
@@ -348,6 +352,23 @@ header {
     text-decoration:underline;
 }
 
+.button-bio{
+    font-size: 25px;
+    
+    
+
+}
+
+.button-bio:hover {
+    background-color: #9b7f22;
+
+}
+
+.button-bio-nav {
+    color: #888;
+    text-decoration: none;
+}
+
 /*--------------------------------------------------------------------buttons*/
 
 /*---------------------------------------------------------------------hr*/
@@ -369,6 +390,11 @@ header {
     font-size: 15px;
     text-align: end;
 
+}
+
+.gallery-image{
+    width: 500;
+    height: 600;
 }
 
 /*--------------------------------------------------------------------------------------------Footer*/
