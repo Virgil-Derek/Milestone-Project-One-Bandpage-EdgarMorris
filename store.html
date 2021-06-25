@@ -14,32 +14,55 @@
 
 <body>
     
-    <nav class="navbar navbar-light navbar-expand-sm justify-content-end" style="background-color: #634e0b;">
+    <nav class="navbar navbar-light navbar-expand-sm text-align-justify" style="background-color: #634e0b;">
         <p class= "form-title">Set yourself Free</p>
         <a class="navbar-brand form-brand" style="color: rgb(90, 0, 0);" href="index.html"> Edgar Morris | Order </a>
     </nav>
     <form class="row g-3">
         <div class="col-md-6">
-          <label for="inputEmail4" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail4">
+          <label for="inputFullName" class="form-label">Full Name</label>
+          <input type="tel" class="form-control" id="inputFullName">
         </div>
         <div class="col-md-6">
-          <label for="inputPassword4" class="form-label">Password</label>
-          <input type="password" class="form-control" id="inputPassword4">
+          <label for="inputEmail" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail">
         </div>
-        <div class="col-12">
+        <div class="col-md-6">
+          <label for="inputPhonenumber" class="form-label">Phone number</label>
+          <input type="text" class="form-control" id="inputPhonenumber">
+        </div>
+        <div class="col-md-6">
           <label for="inputAddress" class="form-label">Address</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          <input type="text" class="form-control" id="inputAddress" placeholder="12345 21st Century Street">
         </div>
         <div class="col-md-6">
           <label for="inputCity" class="form-label">City</label>
-          <input type="text" class="form-control" id="inputCity">
+          <select id="inputState" class="form-select">
+            <option selected>Gent</option>
+            <option>Ostend</option>
+            <option>Brussels</option>
+            <option>Leuven</option>
+            <option>Genk</option>
+            <option>Liège</option>
+          </select>
         </div>
         <div class="col-md-4">
-          <label for="inputState" class="form-label">State</label>
+          <label for="inputState" class="form-label">Province</label>
           <select id="inputState" class="form-select">
             <option selected>Choose...</option>
-            <option>...</option>
+            <option>Antwerp</option>
+            <option>Brussels</option>
+            <option>East-Flanders</option>
+            <option>Flemish-Brabant</option>
+            <option>Hainaut</option>
+            <option>Limburg</option>
+            <option>Liège</option>
+            <option>Luxembourg</option>
+            <option>Namur</option>
+            <option>Walloon-Brabant</option>
+            <option>West-Flanders</option>
+            <option></option>
+            
           </select>
         </div>
         <div class="col-12">
@@ -56,5 +79,7 @@
       </form>
 
 </body>
+<hr>
+<hr>
 
 </html>
