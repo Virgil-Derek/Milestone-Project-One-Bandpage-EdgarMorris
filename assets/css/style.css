@@ -370,3 +370,11 @@ header {
     text-align: end;
 
 }
+
+/*--------------------------------------------------------------------------------------------Footer*/
+.footer {
+    margin-left: 10px;
+    text-align: center;
+    width: 100%;
+
+}
