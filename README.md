@@ -75,6 +75,9 @@ This page is all about building an image for a potential, yet up to ths point no
       1. When trying to upload my cover Image, remained Black, no image showed. 
               Solution: checked filepath. it had: url:(..assets/images/image.jpg) it should have been: url: ("../images/image.jpg")
       2. When using hamburger drowpdown menu, There was no response. after looking through a number of online solutions. It was the missing script from bootstrap. (Ps: In 5.0 version documentation no it said no scripts where necessary to include + there seems to be no documentation about a hamburger dropdown on bootstrap, neither version 4.1 or 5.0?)
+      3. Validator [Jigsaw for CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvirgil-derek.github.io%2FMilestone-Project-One-Bandpage-EdgarMorris%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=nl) 
+        17 bugs. all with CDN javascript. up to this point no idea what the exact problem is. Perhaps newest version 5.0 instead of 4.1 version. 
+      4. Validator [W3C validator for HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fvirgil-derek.github.io%2FMilestone-Project-One-Bandpage-EdgarMorris%2F) : 24 bugs: font-weight px & %; typo in dvi instead of div: button with anchor for tickets: removed button and added bootstrap btn. 
 
 ## Credtis
 
